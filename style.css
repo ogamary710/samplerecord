@@ -280,3 +280,25 @@ margin:30px 150px 0 0;
 	width: 58px;
 	margin: 50px auto;
 }
+
+.otodokebox{
+	width: 600px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.otodokebox h2{
+	text-align: left;
+
+}
+
+.otodokebox form{
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.otodokebutton{
+	width: 100px;
+	margin: 50px auto;
+}
