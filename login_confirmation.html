@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>title</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- ログイン時 -->
+  <header>
+    <nav>
+      <div class="brandlogo">
+        <img src="img/jinnanlogo.png">
+      </div>
+      <ul>
+        <li>MyPage</li>
+        <li>Cart</li>
+        <li>LogOut</li>
+      </ul>
+    </nav>
+  </header>
+
+
+<!-- 未ログイン時 -->
+<!--  <header>
+    <nav>
+      <div class="brandlogo">
+        <img src="img/jinnanlogo.png">
+      </div>
+      <ul>
+        <li>　</li>
+        <li>SignUp</li>
+        <li>LogIn</li>
+      </ul>
+    </nav>
+  </header> -->
+
+<div class="login_form_box">
+  <h2>ログイン</h2>
+
+  <form action="cgi-bin/formmail.cgi" method="post">
+    メールアドレス：<input type="text" name="mail" size="40"><br>
+    <br>
+    パスワード：<input type="text" name="mail" size="40"><br>
+    <br>
+    <input type="checkbox" name="login_Remember" value="0">ログイン情報を保存する<br>
+    <div class="buttonbox">
+      <button type="button" name="aaa" value="aaa">
+        ログイン
+      </button>
+    </div>
+  </form>
+
+
+  <p>
+    <a href="#">新規登録はこちら</a>
+  </p>
+
+  <p>
+    <a href="#">パスワードをお忘れの方はこちら</a>
+  </p>
+</div>
+
+<footer>
+  @神南レコード @Infratop 2017
+</footer>
+</body>
+</html>
