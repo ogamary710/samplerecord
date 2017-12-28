@@ -5,9 +5,9 @@
 }
 
 .clearfix:after{
-  content: ""; 
-  display: block; 
-  clear: both; 
+  content: "";
+  display: block;
+  clear: both;
 }
 
 header{
@@ -75,7 +75,7 @@ table{
 	padding: 100px 0px;
 	width: 1000px;
 	height: 30px;
-	border-bottom: solid 1px black;	
+	border-bottom: solid 1px black;
 }
 
 tr{
@@ -97,7 +97,7 @@ tr td img{
 .shokei{
 	width: 1000px;
 	height: 30px;
-	border-top: solid 1px black;	
+	border-top: solid 1px black;
 	padding:50px 0px;
 	margin:0 auto;
 }
@@ -198,14 +198,14 @@ tr td img{
 
 .album_disc_info p{
 float: right;
-margin:30px 150px 0 0; 
+margin:30px 150px 0 0;
 }
 
 .album_title{
 	padding: 100px 0px;
 	width: 1000px;
 	height: 30px;
-	border-bottom: solid 1px black;	
+	border-bottom: solid 1px black;
 }
 
 
@@ -213,7 +213,7 @@ margin:30px 150px 0 0;
 	width: 100%;
 	line-height: 70px;
 	margin-top: 150px;
-	border-top: solid 1px black;	
+	border-top: solid 1px black;
 }
 
 .otheralubum ul li{
@@ -237,7 +237,7 @@ margin:30px 150px 0 0;
 /*ログイン画面*/
 .login_form_box{
 	width: 500px;
-	height: 450px;
+	min-height: 450px;
 	margin: 50px auto 0;
 	text-align: center;
 

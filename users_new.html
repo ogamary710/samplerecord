@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>title</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- 新規登録時 -->
+  <header>
+    <nav>
+      <div class="brandlogo">
+        <img src="img/jinnanlogo.png">
+      </div>
+      <ul>
+        <li>MyPage</li>
+        <li>Cart</li>
+        <li>LogOut</li>
+      </ul>
+    </nav>
+  </header>
+
+
+<!-- 未新規登録時 -->
+<!--  <header>
+    <nav>
+      <div class="brandlogo">
+        <img src="img/jinnanlogo.png">
+      </div>
+      <ul>
+        <li>　</li>
+        <li>SignUp</li>
+        <li>LogIn</li>
+      </ul>
+    </nav>
+  </header> -->
+
+<div class="login_form_box">
+  <h2>新規登録</h2>
+  <p>お客様情報を入力してください。<br>入力が終わりましたら次へをクリックしてください。<br>※は必須項目です。</p>
+
+  <form action="cgi-bin/formmail.cgi" method="post">
+    氏名(漢字)*：<input type="text" name="mail" size="40"><br>
+    <br>
+    氏名(カナ)*：<input type="text" name="mail" size="40"><br>
+    <br>郵便番号*：<input type="text" name="mail" size="40"><br>
+    <br>
+    住所*：<input type="text" name="mail" size="40"><br>
+    <br>電話番号*：<input type="text" name="mail" size="40"><br>
+    <br>
+    メールアドレス*：<input type="text" name="mail" size="40"><br>
+    <br>パスワード*：<input type="text" name="mail" size="40"><br>
+    <br>
+    パスワード(確認)*：<input type="text" name="mail" size="40"><br>
+    <br>
+    <input type="checkbox" name="login_Remember" value="0">新規登録情報を保存する<br>
+    <div class="buttonbox">
+      <button type="button" name="aaa" value="aaa">
+        新規登録
+      </button>
+    </div>
+  </form>
+
+
+  <p>
+    <a href="#">新規登録はこちら</a>
+  </p>
+
+  <p>
+    <a href="#">パスワードをお忘れの方はこちら</a>
+  </p>
+</div>
+
+<footer>
+  @神南レコード @Infratop 2017
+</footer>
+</body>
+</html>
