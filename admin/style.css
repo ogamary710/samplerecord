@@ -1,0 +1,332 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+  content: ""; 
+  display: block; 
+  clear: both; 
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color:skyblue;
+}
+
+header .brandlogo{
+	padding-top: 10px;
+	float:left;
+}
+
+header .brandlogo img{
+	height: 50px;
+}
+
+nav{
+	width: 100%;
+}
+
+nav ul{
+	width: 360px;
+	float:right;
+	margin-right: 70px
+}
+
+nav ul li{
+	width: 120px;
+	padding: 0 10px;
+	line-height: 70px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: Impact;
+	list-style-type: none;
+	float:left;
+}
+
+
+
+footer{
+	width: 100%;
+	height: 70px;
+	background-color:skyblue;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+}
+
+
+
+/*_____________________________________________*/
+
+/*ショッピングカート*/
+
+table{
+	width: 1000px;
+	margin:0 auto;
+	border-collapse:collapse;
+	margin-top: 50px;
+	border: 1px solid;
+}
+
+.columntitle{
+	padding: 100px 0px;
+	width: 1000px;
+	height: 30px;
+	border-bottom: solid 1px black;	
+}
+
+tr{
+	width: 1000px;
+	height: 50px;
+}
+
+tr th,td{
+	width: 150px;
+	text-align: center;
+
+}
+
+tr td img{
+	width: 150px;
+}
+
+
+.shokei{
+	width: 1000px;
+	height: 30px;
+	border-top: solid 1px black;	
+	padding:50px 0px;
+	margin:0 auto;
+}
+
+.shokei p{
+	width: 200px;
+	float: right;
+}
+
+.buttonwrap{
+	width: 310px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.buttonwrap button{
+	font-size: 23px;
+	color: black;
+ }
+
+/*_____________________________________________*/
+/*アイテム詳細画面*/
+
+
+.wrap{
+	width: 1000px;
+	margin: 50px auto;
+}
+
+
+.album_case{
+	width: 100%;
+	margin-bottom: 50px;
+
+}
+
+.album_case img{
+	width: 40%;
+}
+
+.album_table{
+	margin-top: 0px;
+
+}
+
+.album_small_info{
+	width: 60%;
+	height: 400px;
+	float: right;
+}
+
+.album_small_info ul{
+	margin: 10px 0 0 30px;
+	list-style-type: none;
+}
+
+.album_small_info ul li{
+	margin-bottom: 20px;
+}
+
+.album_small_info ul li button{
+	font-size: 16px;
+}
+
+.album_big_info{
+	width: 100%;
+}
+
+.album_big_info h2{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 30px;
+	border: 1px solid gray;
+	background-color: darkred;
+	color: white;
+}
+
+.album_big_info ul{
+	margin-left:20px;
+	list-style-type: none;
+}
+
+.album_big_info ul li{
+	width: 980px;
+	margin: 20px 0px;
+}
+
+.album_disc_info{
+	margin-bottom: 100px;
+
+}
+
+.album_disc_info h3{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.album_disc_info p{
+float: right;
+margin:30px 150px 0 0; 
+}
+
+.album_title{
+	padding: 100px 0px;
+	width: 1000px;
+	height: 30px;
+	border-bottom: solid 1px black;	
+}
+
+
+.otheralubum{
+	width: 100%;
+	line-height: 70px;
+	margin-top: 150px;
+	border-top: solid 1px black;	
+}
+
+.otheralubum ul li{
+	list-style-type: none;
+	margin: 0 43px ;
+	float: left;
+}
+
+.otheralubum ul li a{
+	text-decoration: none;
+}
+
+
+.otherimage img{
+	height: 100px;
+
+}
+
+
+/*_____________________________________________*/
+/*ログイン画面*/
+.login_form_box{
+	width: 500px;
+	height: 450px;
+	margin: 50px auto 0;
+	text-align: center;
+
+}
+
+.login_form_box h2{
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+
+
+
+/*_____________________________________________*/
+/*退会画面*/
+
+.mini_form_box{
+	width: 350px;
+	height: 450px;
+	margin: 50px auto 0;
+}
+
+.mini_form_box h2{
+	margin-bottom: 15px;
+}
+
+.mini_form_box p{
+
+}
+
+.mini_form_box ul{
+	margin-left: 10px;
+}
+
+.mini_form_box ul li{
+	list-style-type: none;
+}
+
+.buttonbox{
+	width: 58px;
+	margin: 50px auto;
+}
+
+.otodokebox{
+	width: 600px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.otodokebox h2{
+	text-align: left;
+
+}
+
+.otodokebox form{
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.otodokebutton{
+	width: 100px;
+	margin: 50px auto;
+}
+
+
+/*_____________________________________________*/
+/*管理者TOP*/
+.admin_top_menu{
+	width: 70%;
+	margin: 50px auto 0;
+	text-align: center;
+}
+
+.admin_top_menu_box{
+	margin-bottom: 50px;
+}
+
+th {
+	color: white;
+	background-color: gray;
+	border: 1px solid;
+}
+
+td {
+	border: 1px solid;
+}
+
+h2 {
+	text-align: left;
+}
