@@ -58,182 +58,6 @@ footer{
 	line-height: 70px;
 }
 
-
-
-/*_____________________________________________*/
-
-/*ショッピングカート*/
-
-table{
-	width: 1000px;
-	margin:0 auto;
-	border-collapse:collapse;
-	margin-top: 50px;
-	border: 1px solid;
-}
-
-.columntitle{
-	padding: 100px 0px;
-	width: 1000px;
-	height: 30px;
-	border-bottom: solid 1px black;	
-}
-
-tr{
-	width: 1000px;
-	height: 50px;
-}
-
-tr th,td{
-	width: 150px;
-	text-align: center;
-
-}
-
-tr td img{
-	width: 150px;
-}
-
-
-.shokei{
-	width: 1000px;
-	height: 30px;
-	border-top: solid 1px black;	
-	padding:50px 0px;
-	margin:0 auto;
-}
-
-.shokei p{
-	width: 200px;
-	float: right;
-}
-
-.buttonwrap{
-	width: 310px;
-	margin: 0 auto;
-	padding-bottom: 100px;
-}
-
-.buttonwrap button{
-	font-size: 23px;
-	color: black;
- }
-
-/*_____________________________________________*/
-/*アイテム詳細画面*/
-
-
-.wrap{
-	width: 1000px;
-	margin: 50px auto;
-}
-
-
-.album_case{
-	width: 100%;
-	margin-bottom: 50px;
-
-}
-
-.album_case img{
-	width: 40%;
-}
-
-.album_table{
-	margin-top: 0px;
-
-}
-
-.album_small_info{
-	width: 60%;
-	height: 400px;
-	float: right;
-}
-
-.album_small_info ul{
-	margin: 10px 0 0 30px;
-	list-style-type: none;
-}
-
-.album_small_info ul li{
-	margin-bottom: 20px;
-}
-
-.album_small_info ul li button{
-	font-size: 16px;
-}
-
-.album_big_info{
-	width: 100%;
-}
-
-.album_big_info h2{
-	width: 100%;
-	height: 50px;
-	line-height: 50px;
-	padding-left: 30px;
-	border: 1px solid gray;
-	background-color: darkred;
-	color: white;
-}
-
-.album_big_info ul{
-	margin-left:20px;
-	list-style-type: none;
-}
-
-.album_big_info ul li{
-	width: 980px;
-	margin: 20px 0px;
-}
-
-.album_disc_info{
-	margin-bottom: 100px;
-
-}
-
-.album_disc_info h3{
-	margin-top: 30px;
-	margin-left: 30px;
-}
-
-.album_disc_info p{
-float: right;
-margin:30px 150px 0 0; 
-}
-
-.album_title{
-	padding: 100px 0px;
-	width: 1000px;
-	height: 30px;
-	border-bottom: solid 1px black;	
-}
-
-
-.otheralubum{
-	width: 100%;
-	line-height: 70px;
-	margin-top: 150px;
-	border-top: solid 1px black;	
-}
-
-.otheralubum ul li{
-	list-style-type: none;
-	margin: 0 43px ;
-	float: left;
-}
-
-.otheralubum ul li a{
-	text-decoration: none;
-}
-
-
-.otherimage img{
-	height: 100px;
-
-}
-
-
 /*_____________________________________________*/
 /*ログイン画面*/
 .login_form_box{
@@ -249,62 +73,6 @@ margin:30px 150px 0 0;
 	margin-bottom: 20px;
 }
 
-
-
-
-/*_____________________________________________*/
-/*退会画面*/
-
-.mini_form_box{
-	width: 350px;
-	height: 450px;
-	margin: 50px auto 0;
-}
-
-.mini_form_box h2{
-	margin-bottom: 15px;
-}
-
-.mini_form_box p{
-
-}
-
-.mini_form_box ul{
-	margin-left: 10px;
-}
-
-.mini_form_box ul li{
-	list-style-type: none;
-}
-
-.buttonbox{
-	width: 58px;
-	margin: 50px auto;
-}
-
-.otodokebox{
-	width: 600px;
-	margin: 50px auto;
-	text-align: center;
-}
-
-.otodokebox h2{
-	text-align: left;
-
-}
-
-.otodokebox form{
-	width: 500px;
-	margin: 0 auto;
-	text-align: left;
-}
-
-.otodokebutton{
-	width: 100px;
-	margin: 50px auto;
-}
-
-
 /*_____________________________________________*/
 /*管理者TOP*/
 .admin_top_menu{
@@ -317,6 +85,14 @@ margin:30px 150px 0 0;
 	margin-bottom: 50px;
 }
 
+table{
+	width: 1000px;
+	margin:0 auto;
+	border-collapse:collapse;
+	margin-top: 20px;
+	border: 1px solid;
+}
+
 th {
 	color: white;
 	background-color: gray;
@@ -324,9 +100,235 @@ th {
 }
 
 td {
+	height: 10px;
 	border: 1px solid;
 }
 
 h2 {
 	text-align: left;
+}
+
+/*_____________________________________________*/
+/*商品一覧*/
+.admin_item_list_link{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px; 
+	padding-bottom: 30px;
+}
+
+.admin_item_list_searchbox {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.admin_item_list_searchbox_left {
+	width: 50%;
+	float: left;
+}
+
+.admin_item_list_searchbox_right {
+	width: 50%;
+	float: left;
+}
+
+.admin_item_list_search_title{
+	width: 20%;
+	float: left;
+	font-weight: bold;
+}
+
+.admin_item_list_search_item{
+	float: left;
+}
+
+.admin_item_list_buttonbox {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.admin_item_list_result{
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+/*_____________________________________________*/
+/*顧客一覧*/
+
+.admin_customer_list_link{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px; 
+	padding-bottom: 30px;
+}
+
+.admin_customer_list_searchbox {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.admin_customer_list_searchbox_left {
+	width: 50%;
+	float: left;
+}
+
+.admin_customer_list_searchbox_right {
+	width: 50%;
+	float: left;
+}
+
+.admin_customer_list_search_title{
+	width: 30%;
+	float: left;
+	font-weight: bold;
+}
+
+.admin_customer_list_search_item{
+	float: left;
+}
+
+.admin_customer_list_buttonbox {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.admin_customer_list_result{
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+/*_____________________________________________*/
+/*ジャンル一覧*/
+
+.admin_genre_list_title {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.admin_genre_list_box {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: left;
+}
+
+.admin_genre_form {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: center;
+}
+
+/*_____________________________________________*/
+/*商品登録*/
+
+.admin_item_regist {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.admin_item_regist_left {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.admin_item_regist_right {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.admin_item_regist_navi {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: right;
+}
+
+/*_____________________________________________*/
+/*ユーザー情報詳細*/
+.admin_customer_detail {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.admin_customer_detail_left {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.admin_customer_detail_title{
+	width: 30%;
+	float: left;
+	font-weight: bold;
+}
+
+.admin_customer_detail_item{
+	float: left;
+}
+
+
+.admin_customer_detail_right {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.admin_customer_detail_right table {
+	width: 100%;
+	border-collapse:collapse;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid;
+}
+
+/*_____________________________________________*/
+/*ユーザー情報編集*/
+.admin_customer_edit {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.admin_customer_edit_left {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.admin_customer_edit_title{
+	width: 30%;
+	float: left;
+	font-weight: bold;
+}
+
+.admin_customer_edit_item{
+	float: left;
+}
+
+
+.admin_customer_edit_right {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.admin_customer_edit_navi {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: right;
 }

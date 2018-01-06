@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>顧客一覧</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- ログイン時 -->
+	<header>
+		<nav>
+			<div class="brandlogo">
+				<img src="../img/jinnanlogo.png">
+			</div>
+			<ul>
+				<li>商品</li>
+				<li>顧客</li>
+				<li>logout</li>
+			</ul>
+		</nav>
+	</header>
+
+
+<!-- 未ログイン時 -->
+<!-- 	<header>
+		<nav>
+			<div class="brandlogo">
+				<img src="img/jinnanlogo.png">
+			</div>
+			<ul>
+				<li>　</li>
+				<li>SignUp</li>
+				<li>LogIn</li>
+			</ul>
+		</nav>
+	</header> -->
+
+<div>
+	<div class="admin_customer_list_link">
+		顧客一覧
+	</div>
+	
+	<div class="clearfix">
+		<div class="admin_customer_list_searchbox">
+			<div class="admin_customer_list_searchbox_left">
+				<div class="clearfix">
+					<div class="admin_customer_list_search_title">名前（部分一致）</div>
+					<div class="admin_customer_list_search_item"><input type="text" name="artist" size="40"></div>
+				</div>	
+				<div class="clearfix">
+					<div class="admin_customer_list_search_title">メールアドレス</div>
+					<div class="admin_customer_list_search_item"><input type="text" name="title" size="40"></div>
+				</div>
+			</div>
+			<div class="admin_customer_list_searchbox_right">
+				<div class="clearfix">	
+					<div class="admin_customer_list_search_title">ステータス</div>
+					<div class="admin_customer_list_search_item">
+						<select name="status">
+							<option value="0">-</option>
+							<option value="1">入金待ち</option>
+							<option value="2">発送待ち</option>
+						</select>
+					</div>
+				</div>
+				<div class="clearfix">				
+					<div class="admin_customer_list_search_item"><input type="checkbox" name="retire">退会済ユーザを表示する</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="admin_customer_list_buttonbox">
+		<input type="submit" value="検索">
+		<input type="button" value="クリア">
+	</div>
+	<div class="admin_customer_list_result">
+		<table>
+			<tr>
+				<th>名前</th>
+				<th>メールアドレス</th>
+				<th>ステータス</th>
+				<th>退会</th>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<footer>
+	@神南レコード @Infratop 2017
+</footer>
+</body>
+</html>

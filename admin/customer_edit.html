@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>顧客情報編集</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- ログイン時 -->
+	<header>
+		<nav>
+			<div class="brandlogo">
+				<img src="../img/jinnanlogo.png">
+			</div>
+			<ul>
+				<li>商品</li>
+				<li>顧客</li>
+				<li>logout</li>
+			</ul>
+		</nav>
+	</header>
+
+
+<!-- 未ログイン時 -->
+<!-- 	<header>
+		<nav>
+			<div class="brandlogo">
+				<img src="img/jinnanlogo.png">
+			</div>
+			<ul>
+				<li>　</li>
+				<li>SignUp</li>
+				<li>LogIn</li>
+			</ul>
+		</nav>
+	</header> -->
+
+
+<div class="admin_customer_edit">
+	<div>顧客情報編集</div>
+	<br>
+	<div class="clearfix">
+		<div class="admin_customer_edit_left">
+			<div class="clearfix">
+				<div class="admin_customer_edit_title">名前</div>
+				<div class="admin_customer_edit_item"><input type="text" size="40"></div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_customer_edit_title">郵便番号</div>
+				<div class="admin_customer_edit_item">〒<input type="text" size="10"></div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_customer_edit_title">住所</div>
+				<div class="admin_customer_edit_item"><input type="text" size="40"></div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_customer_edit_title">電話番号</div>
+				<div class="admin_customer_edit_item"><input type="text" size="40"></div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_customer_edit_title">メールアドレス</div>
+				<div class="admin_customer_edit_item"><input type="text" size="40"></div>
+			</div>
+		</div>
+		<div class="admin_customer_edit_right">
+			<input type="checkbox">ブラックリスト
+			<br>
+			<input type="checkbox">削除済み
+		</div>
+	</div>
+	<div  class="admin_customer_edit_navi">
+		<input type="button" value="完了">
+	</div>
+</div>
+
+<footer>
+	@神南レコード @Infratop 2017
+</footer>
+</body>
+</html>

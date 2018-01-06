@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>管理画面TOP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- ログイン時 -->
+	<header>
+		<nav>
+			<div class="brandlogo">
+				<img src="../img/jinnanlogo.png">
+			</div>
+			<ul>
+				<li>商品</li>
+				<li>顧客</li>
+				<li>logout</li>
+			</ul>
+		</nav>
+	</header>
+
+
+<!-- 未ログイン時 -->
+<!-- 	<header>
+		<nav>
+			<div class="brandlogo">
+				<img src="img/jinnanlogo.png">
+			</div>
+			<ul>
+				<li>　</li>
+				<li>SignUp</li>
+				<li>LogIn</li>
+			</ul>
+		</nav>
+	</header> -->
+
+
+<div class="admin_item_regist">
+	<div>商品登録</div>
+	<br>
+	<div class="clearfix">
+		<div class="admin_item_regist_left">
+			<div class="clearfix">
+				<div class="admin_item_list_search_title">アーティスト</div>
+				<div class="admin_item_list_search_item"><input type="text" name="artist" size="40"></div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_item_list_search_title">タイトル</div>
+				<div class="admin_item_list_search_item"><input type="text" name="title" size="40"></div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_item_list_search_title">メディア</div>
+				<div class="admin_item_list_search_item">
+					<select name="status">
+						<option value="0">CD</option>
+						<option value="1">DVD</option>
+						<option value="2">CD/DVD</option>
+						<option value="3">CD/DVD</option>
+						<option value="4">レコード</option>
+						<option value="5">カセットテープ</option>
+						<option value="6">雑貨</option>
+					</select>
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_item_list_search_title">レーベル</div>
+				<div class="admin_item_list_search_item"><input type="text" name="label" size="40"></div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_item_list_search_title">ジャンル</div>
+				<div class="admin_item_list_search_item">
+					<select name="status">
+						<option value="0">JAZZ</option>
+					</select>
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_item_list_search_title">定価</div>
+				<div class="admin_item_list_search_item"><input type="text" name="label" size="10">円</div>
+			</div>
+		</div>
+		<div class="admin_item_regist_right">
+			<div class="clearfix">
+				<div class="admin_item_list_search_title">ジャケット</div>
+				<div class="admin_item_list_search_item">
+					<div>■</div>
+					<input type="button" value="選択">
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_item_list_search_item">
+					<div class="admin_item_list_search_item"><input type="checkbox" name="release">店舗オススメに表示する
+					</div>
+				</div>
+			</div>
+			<div class="clearfix">
+				<div class="admin_item_list_search_item">
+					<div class="admin_item_list_search_item"><input type="checkbox" name="release">
+						販売停止にする
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div  class="admin_item_regist_navi">
+		<input type="button" value="次へ">
+	</div>
+</div>
+
+
+<footer>
+	@神南レコード @Infratop 2017
+</footer>
+</body>
+</html>
