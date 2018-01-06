@@ -332,3 +332,155 @@ h2 {
 	padding-bottom: 30px;
 	text-align: right;
 }
+
+/*_____________________________________________*/
+/*アイテム詳細画面*/
+
+.wrap{
+	width: 1000px;
+	margin: 50px auto;
+}
+
+.album_case{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.album_case img{
+	width: 40%;
+}
+
+.album_table{
+	margin-top: 0px;
+}
+
+.album_small_info{
+	width: 70%;
+}
+
+.album_small_info ul{
+	margin: 10px 0 0 30px;
+	list-style-type: none;
+}
+
+.album_small_info ul li{
+	margin-bottom: 20px;
+}
+
+.album_big_info{
+	width: 100%;
+}
+
+.album_big_info h2{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 30px;
+	border: 1px solid gray;
+	background-color: skyblue;
+	color: white;
+}
+
+.album_big_info ul{
+	margin-left:20px;
+	list-style-type: none;
+}
+
+.album_big_info ul li{
+	width: 980px;
+	margin: 20px 0px;
+}
+
+.album_disc_info{
+	margin-bottom: 100px;
+
+}
+
+.album_disc_info h3{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.album_disc_info p{
+	float: right;
+	margin:30px 150px 0 0; 
+}
+
+.album_title{
+	padding: 100px 0px;
+	width: 1000px;
+	height: 30px;
+	border-bottom: solid 1px black;	
+}
+
+
+.otheralubum{
+	width: 100%;
+	line-height: 70px;
+	margin-top: 150px;
+	border-top: solid 1px black;	
+}
+
+.otheralubum ul li{
+	list-style-type: none;
+	margin: 0 43px ;
+	float: left;
+}
+
+.otheralubum ul li a{
+	text-decoration: none;
+}
+
+
+.otherimage img{
+	height: 100px;
+
+}
+
+/*_____________________________________________*/
+/*購入履歴*/
+.admin_purchase_history {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.admin_purchase_history_left {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.admin_purchase_history_left table {
+	width: 80%;
+	border-collapse:collapse;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid;
+}
+
+.admin_purchase_history_title{
+	width: 30%;
+	float: left;
+	font-weight: bold;
+}
+
+.admin_purchase_history_item{
+	float: left;
+}
+
+
+.admin_purchase_history_right {
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.admin_purchase_history_item table {
+	width: 100%;
+	border-collapse:collapse;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid;
+}
